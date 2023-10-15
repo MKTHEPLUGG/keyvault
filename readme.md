@@ -56,10 +56,3 @@ The workflow uses the aforementioned custom action to deploy a KeyVault in Azure
 3. **Run the Workflow**:
    - Either make a push or pull request to the master branch or manually trigger the workflow from the "Actions" tab in GitHub.
    - The workflow will validate the Bicep templates and deploy the KeyVault in the Azure subscription using the provided service principal credentials and parameters.
-
-## Author Information
-Michiel Van Haegenborgh
-
-## Note
-
-This is a high-level documentation tailored to the provided files. For a more detailed or step-by-step guide, you might want to consider creating more extensive documentation or how-to guides. Always ensure that any sensitive information is kept secure, and avoid hard-coding any secrets or credentials.
