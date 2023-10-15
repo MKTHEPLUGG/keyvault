@@ -1,7 +1,6 @@
-{
-  'location': 'westeurope',
-  'environment': 'integration',
-  'kvSkuName': 'standard",
-  'purpose': 'appService'
-  // ... add any other necessary parameters
-}
+using '../../templates/main.bicep'
+
+param location = 'westeurope'
+param environment = 'integration'
+param kvSkuName = 'standard'
+param purpose = 'appService'
